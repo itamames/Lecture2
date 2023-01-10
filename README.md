@@ -539,46 +539,6 @@ public class Example {
 }
 ```
 
-```python
-def main():
-    print("The main method starts")
-    message = greetings(4, "Seattle")
-    print(message)
-    print("The main method ends")
-
-
-def greetings(times, greeting_to):
-    print("Greetings starts")
-    for i in range(times):
-        print("Hello " + greeting_to + "!")
-    print("Greeting ends")
-    return "Greeted " + str(times) + " times"
-
-
-if __name__ == "__main__":
-    main()
-```
-
-```javascript
-function main() {
-  console.log("The main method starts");
-  let message = greetings(4, "Seattle");
-  console.log(message);
-  console.log("The main method ends");
-}
-
-function greetings(times, greetingTo) {
-  console.log("Greetings starts");
-  for (let i = 0; i < times; i++) {
-      console.log("Hello " + greetingTo + "!");
-  }
-  console.log("Greetings ends");
-  return "Greeted " + times + " times";
-}
-
-main();
-```
-
 This code has the output:
 
 ```text
